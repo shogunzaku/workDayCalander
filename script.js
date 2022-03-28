@@ -1,6 +1,9 @@
+var $currentDay = $("#currentDay");
 var $timeBlocks = $(".time-block");
-var currentHour = moment().format("H");
 
+// current date display
+var currentDate = moment().format("dddd, MMMM Do");
+var currentHour = moment().format("H");
 
 function setUpTimeBlocks(){
     $timeBlocks.each(function(){
@@ -21,3 +24,9 @@ function setUpTimeBlocks(){
 }
 // set in time blocks 
 setUpTimeBlocks();
+
+function renderSchedule(){
+  
+}
+//current date display
+$currentDay.text(currentDate);
