@@ -1,1 +1,2 @@
 This is my 9-5 workday scheduler using moment.js, javascript, bootstrap and jQuery.
+I couldn't figure out how to set up the memory storage to save your todos but I got the time blocks, save button and current date to display.

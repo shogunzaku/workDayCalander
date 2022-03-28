@@ -22,11 +22,11 @@ function setUpTimeBlocks(){
       }
     });
 }
+
 // set in time blocks 
 setUpTimeBlocks();
 
-function renderSchedule(){
-  
-}
 //current date display
 $currentDay.text(currentDate);
+
+
